@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About us</title>
+    <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+<body>
+    <nav>
+        <img id="logo" src="https://img.icons8.com/?size=100&id=7461&format=png&color=000000"/>
+        <h1 id="wsName">Travel Guide</h1>
+        <div id="links">
+          <a href="./travel_recommendation.html" class="navLink" id="home">Home </a>
+          <a href="./about.html" class="navLink" id="about">About Us </a>
+          <a href="./contact.html" class="navLink" id="contact">Contact Us</a>
+          
+        </div>
+    </nav>
+        <div id="About">
+            <div id="sociallinks">
+                <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter fa-2x linkslogo" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x linkslogo" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x linkslogo" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play fa-2x linkslogo" aria-hidden="true"></i></a>
+            </div>
+            <div id="aboutusheader">
+            <div id="text">
+                <h1 id="bigHeading">About us</h1>
+                <p id="aboutText">Welcome to our Company! We are a team of passionate individuals dedicated to providing excellent service products to our customers. Our mission is to <span class="bold">provide the best experience</span> for people traveling to different destinations around the world. <br> Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in <span class="bold">putting our customers first</span> and <span class="bold">working together</span> to achieve our goals. <br> Feel free to explore our website to learn more about what we offer!</p>
+                <h2 id="teamH2">Our Team</h2>
+                <div id="team">
+                    
+                    <div class="teamMember">
+                        <img class="person" src="https://img.icons8.com/?size=100&id=bOXN3AZhMCek&format=png&color=000000"/>
+                        <h3 class="teamMemberName">Max Mustermann</h3>
+                        <p id="ceo">Max is responsible for ...</p>
+                        <button class="teamBtn" onclick="showTeamInfo('ceo','Max Mustermann')">CEO</button>
+                    </div>
+                    <div class="teamMember">
+                        <img class="person" src="https://img.icons8.com/?size=100&id=2zX81vvl75DJ&format=png&color=000000"/>
+                        <h3 class="teamMemberName">Jane Smith</h3>
+                        <p id="teamLead">Jane is responsible for ...</p>
+                        <button class="teamBtn" onclick="showTeamInfo('teamLead','Jane Smith')">Team Lead</button>
+                    </div>
+                    <div class="teamMember">
+                        <img class="person" src="https://img.icons8.com/?size=100&id=gZmAnbNhG4iO&format=png&color=000000"/>
+                        <h3 class="teamMemberName">John Doe</h3>
+                        <p id="marketing">John is responsible for ...</p>
+                        <button class="teamBtn" onclick="showTeamInfo('marketing','John Doe')">Marketing Manager</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="./travel_recommendation.js"></script>
+</body>
